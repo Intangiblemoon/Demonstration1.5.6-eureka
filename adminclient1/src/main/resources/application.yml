@@ -1,0 +1,21 @@
+spring:
+  boot:
+    admin:
+      url: http://localhost:9010/
+
+management:
+  security:
+    enabled: false
+
+server:
+  port: 9011
+
+
+info.groupId: @project.groupId@
+info.artifactId: @project.artifactId@
+info.version: @project.version@
+
+security:
+  user:
+    name: admin
+    password: 123456
